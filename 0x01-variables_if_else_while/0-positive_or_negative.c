@@ -8,7 +8,6 @@
 /**
   *main - This is the entry point of the program
   *argumets: this program passes no argument
-
  *Return: returns 0 by default
   */
 int main(void)
