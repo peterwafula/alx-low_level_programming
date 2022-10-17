@@ -6,8 +6,11 @@
   *Return: this program returns zero by default
 */
 
-int main()
+int main(void)
 {
-	for (char c='a' ; c <= 'z' ; c++)
+	char c;
+
+	for (c='a' ; c <= 'z' ; c++)
 		putchar(c);
+	return(0);
 }
