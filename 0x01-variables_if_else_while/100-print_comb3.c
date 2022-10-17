@@ -14,20 +14,19 @@ int main(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			
 			if (i == j || j < i)
 				continue;
 			else
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-				if (i == 8 && j == 9)
-					break;
-				else
+				if (i != 8 && j != 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
+				else
+					break;
 			}
 		}
 	}
