@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 16; i++)
-		if (i>9)
+		if (i > 9)
 		{	int k;
 			for (k = 0; k < 6; k++)
 				putchar(k + 'a');
