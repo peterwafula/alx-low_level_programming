@@ -15,7 +15,7 @@ int main(void)
 		for (j = 0; j < 10; j++)
 		{
 			for (k = 0; k<10; k++)
-		{
+			{
 			if (i == j || i == k || j == k || j < i || k < i || k < j)
 				continue;
 			else
@@ -27,6 +27,7 @@ int main(void)
 					break;
 				putchar(',');
 				putchar(' ');
+			}
 			}
 		}
 	}
