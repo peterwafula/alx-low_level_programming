@@ -13,7 +13,8 @@
 int main()
 {
 	char str[] = "_putchar";
-	for (int i=0; i < strlen(str); i++)
+
+	for (int i = 0; i < strlen(str); i++)
 	{
 		_putchar(str[i]);
 	}

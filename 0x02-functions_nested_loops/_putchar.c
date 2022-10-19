@@ -8,5 +8,5 @@
 
 void _putchar(char s)
 {
-	printf("&c",s);
+	printf("%c",s);
 }
