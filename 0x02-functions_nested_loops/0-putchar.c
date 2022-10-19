@@ -18,7 +18,7 @@ int main()
 
 	length = strlen(str);
 
-	for(i = 0; i <= length; i++)
+	for(i = 0; i < length; i++)
 	{
 		_putchar(str[i]);
 	}
