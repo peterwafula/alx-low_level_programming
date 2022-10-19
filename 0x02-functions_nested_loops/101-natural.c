@@ -8,7 +8,7 @@
   *Return: Returns void.
 */
 
-void main(void)
+int main(void)
 {
 	int i, sum;
 
@@ -19,4 +19,5 @@ void main(void)
 			sum = sum + i;;
 	}
 	printf("%d", sum);
+	return (0);
 }
