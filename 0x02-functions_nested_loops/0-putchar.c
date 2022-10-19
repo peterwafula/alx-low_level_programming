@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
   *main - This is the main entry of the program
@@ -6,7 +7,11 @@
   *Return: This program returns nothing
 */
 
-void main()
+int main()
 {
-	printf("_putchar\n");
+	putch()
+}
+void putch()
+{
+	printf("_putchar");
 }
