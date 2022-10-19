@@ -8,7 +8,7 @@
   *Return: Returns either 1 or 0
 */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (isalpha(c))
 		return (1);
