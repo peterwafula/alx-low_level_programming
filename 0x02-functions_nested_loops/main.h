@@ -1,4 +1,1 @@
-#ifndef
-	#define putch
-	void putch();
-#endif
+void _putchar(s);

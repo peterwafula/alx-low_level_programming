@@ -9,9 +9,9 @@
 
 int main()
 {
-	putch()
-}
-void putch()
-{
-	printf("_putchar");
+	char str[] = "_putchar";
+	for (int i=0; i < strlen(str); i++)
+	{
+		_putchar(str[i];
+	}
 }
