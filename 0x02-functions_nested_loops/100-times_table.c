@@ -13,7 +13,6 @@
 void print_times_table(int n)
 {
 	int i, j, prd;
-	
 	for (i = 0; i <= n; i++)
 	{
 		for (j = 0; j <= n; j++)
@@ -25,7 +24,7 @@ void print_times_table(int n)
 
 			if (j != 0 && prd < 10)
 				printf(" ");
-			if (j == 9)
+			if (j == n)
 				printf("%d\n", i * j);
 			else
 				printf("%d, ", i * j);
