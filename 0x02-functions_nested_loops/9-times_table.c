@@ -20,7 +20,7 @@ void times_table(void)
 		{
 			int prd = i * j;
 
-			if (prd < 10)
+			if (j != 0 && prd < 10)
 				printf(" ");
 			if (j == 9)
 				printf("%d\n", i * j);
