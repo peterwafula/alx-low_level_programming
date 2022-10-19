@@ -8,7 +8,7 @@
   *Return: This function doesn't return anything
 */
 
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	for (n; n <= 98; n++)
 	{
