@@ -20,7 +20,9 @@ void print_times_table(int n)
 		{
 			if (n > 15 || n < 0)
 				break;
-			int prd = i * j;
+			int prd;
+
+			prd = i * j;
 
 			if (j != 0 && prd < 10)
 				printf(" ");
