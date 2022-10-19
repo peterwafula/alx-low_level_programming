@@ -12,7 +12,7 @@
 
 void print_times_table(int n)
 {
-	int i, j;
+	int i, j, prd;
 	
 	for (i = 0; i <= n; i++)
 	{
@@ -20,7 +20,6 @@ void print_times_table(int n)
 		{
 			if (n > 15 || n < 0)
 				break;
-			int prd;
 
 			prd = i * j;
 
