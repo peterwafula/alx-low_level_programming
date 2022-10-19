@@ -4,7 +4,7 @@
 
 /**
   *_islower - Checks for lowercase
-  *c: passws c to check its case
+  *@c: passws c to check its case
   *Return: Returns an integer 1 or 0
 */
 
