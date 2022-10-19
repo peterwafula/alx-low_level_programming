@@ -22,5 +22,6 @@ int main()
 	{
 		_putchar(str[i]);
 	}
+	_putchar('\n');
 	return(0);
 }
