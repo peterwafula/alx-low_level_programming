@@ -6,5 +6,7 @@
   *Return: returns the character to be printed.
   */
 
-void _putchar(s)
+void _putchar(char s)
+{
 	printf("&c",s);
+}
