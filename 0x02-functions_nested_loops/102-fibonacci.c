@@ -12,14 +12,11 @@ int main(void)
 {
 	int i, j, k;
 
-	for (k = 0; k < 50; k++)
+	for (i = 1, j = 2, k = 0;k < 50; k++)
 	{
-		for (i = 1, j = 2;;)
-		{
-			printf("%d, %d, ", i, j);
-			i += j;
-			j += i;
-		}
+		printf("%d, %d, ", i, j);
+		i += j;
+		j += i;
 	}
 	return (0);
 }
