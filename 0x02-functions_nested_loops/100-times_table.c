@@ -23,7 +23,9 @@ void print_times_table(int n)
 
 			prd = i * j;
 
-			if (j != 0 && prd < 100)
+			if (j != 0 && prd < 10)
+				printf("  ");
+			else if (j != 0 && prd > 10 && prd < 100)
 				printf(" ");
 			if (j == n)
 				printf("%d\n", i * j);
