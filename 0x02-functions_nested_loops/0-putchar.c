@@ -10,7 +10,7 @@
   *Return: This program returns nothing
 */
 
-int main()
+int main(void)
 {
 	char str[] = "_putchar";
 
@@ -18,10 +18,10 @@ int main()
 
 	length = strlen(str);
 
-	for(i = 0; i < length; i++)
+	for (i = 0; i < length; i++)
 	{
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-	return(0);
+	return (0);
 }
