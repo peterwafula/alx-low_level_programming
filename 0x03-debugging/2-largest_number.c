@@ -3,8 +3,9 @@
 /**
   *largest_number - returns the largest of 3 numbers
   *@a: first interger
-  @b: second interger
-  @c: third interger
+  *@b: second interger
+  *@c: third interger
+  *Return: return largest of the three
 */
 
 in largest_number(int a, int b, int c)
@@ -12,9 +13,10 @@ in largest_number(int a, int b, int c)
 	int largest;
 
 	if (a >= b && a >= c)
-		return (a);
+		largest = a;
 	else if (b >= a && b >= c)
-		return (b);
+		largest = b;
 	else
-		return (c);
+		largest = c;
+	return (largest);
 }
