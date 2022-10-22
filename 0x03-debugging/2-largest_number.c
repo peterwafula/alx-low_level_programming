@@ -5,10 +5,10 @@
   *@a: first interger
   *@b: second interger
   *@c: third interger
-  *Return: return largest of the three
+  *Return: largest number
 */
 
-in largest_number(int a, int b, int c)
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
