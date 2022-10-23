@@ -10,11 +10,7 @@
 
 void print_diagonal(int n)
 {
-	int i, j, k;
-
-	char spc;
-
-	spc = ' ';
+	int i, k;
 
 	if (n <= 0)
 		_putchar('\n');
