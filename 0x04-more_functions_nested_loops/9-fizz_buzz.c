@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
-  *main - This program prints numbers from 1 to 100
+  *fizzbuzz - This program prints numbers from 1 to 100
   *excluding divisibility of 3 and 5
   *Return: returns 0
 */
 
-int main(void)
+int fizzbuzz(void)
 {
 	int i;
 
