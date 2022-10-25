@@ -9,21 +9,22 @@
 
 int main(void)
 {
-	long int num, new;
+	long int num, new, div, max;
 	num = 612852475143;
-
-	int i, max;
-	new = num;
+	div = 2;
 	max = 0;
+	new = num;
 
-	for (i = 1; i <= new; i++)
+	while (div < new)
 	{
-		if (num % i == 0)
+		if (new % div == 0)
 		{
-			new = num / i;
-			if (max <= i)
-				max = i;
+			new = num / div;
+			if (max < div)
+				max = div;
 		}
+		else
+			div++;
 	}
-	printf("%d", max);
+	printf("%ld", max);
 }
