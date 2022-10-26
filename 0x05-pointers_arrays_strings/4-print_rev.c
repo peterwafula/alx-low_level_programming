@@ -12,8 +12,12 @@
 
 void print_rev(char *s)
 {
-	int i;
+	int i, n;
 
-	for (i = strlen(s) - 1; i >= 0; i--)
-		printf("%c", s[i]);
+	n = 0;
+	while (s[n] != '\0')
+		n++;
+	for (i = n - 1; i >= 0; i--)
+		_putchar(s[i]);
+	_putchar('\n');
 }
