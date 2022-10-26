@@ -20,8 +20,8 @@ void rev_string(char *s)
 		n++;
 	for (i = n - 1; i >= 0; i--)
 	{
-		*(s + j) = s[i]);
-		j++
+		*(s + j) = s[i];
+		j++;
 	}
 	_putchar('\n');
 }
