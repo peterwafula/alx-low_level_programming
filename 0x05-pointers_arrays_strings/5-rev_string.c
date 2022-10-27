@@ -19,7 +19,7 @@ void rev_string(char *s)
 	j = 0;
 	while (s[i] != '\0')
 		i++;
-	k = i -1;
+	k = i - 1;
 	for (j = 0; k >= 0 && j < k; k--, j++)
 	{
 		d = s[j];
