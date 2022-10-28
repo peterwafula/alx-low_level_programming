@@ -1,6 +1,7 @@
 #include "main.h"
 
 #include <string,h>
+
 /**
   *_strcat - concatenates strings
   *@dest: destination of the joined string
@@ -10,5 +11,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	return (strcat(dest, src));
+	char *pnt;
+
+	pnt = strcat(dest, src);
+	return (pnt);
 }
