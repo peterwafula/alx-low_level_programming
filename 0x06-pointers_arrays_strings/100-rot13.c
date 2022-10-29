@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  *leet - Convert characters to leet maethod
+  *rot13 - Convert characters to leet maethod
   *@s: string to be converted
   *Return: Return converted string
 */
 
-char *leet(char *s)
+char *rot13(char *s)
 {
 	int i, j;
 	char *src = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
