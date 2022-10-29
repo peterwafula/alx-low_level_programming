@@ -8,7 +8,7 @@
   *Return: ccapitals
 */
 
-char *string_toupper(char *s);
+char *string_toupper(char *s)
 {
 	int i;
 
